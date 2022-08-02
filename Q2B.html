@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Binary Search Tree</title>
+    <link rel="stylesheet" href="Q1.css">
+</head>
+
+<body>
+    <!-- It will create a division for
+		compiler and embed that into
+		web page-->
+
+    <div class = "online_ide" data-pym-src="https://www.jdoodle.com/embed/v0/4ZD7"></div>
+
+    <!-- navigation bar -->
+    
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+    </div>
+    
+    <div class = "content" >
+        <p>
+        <h1>Predecessor and Successor</h1>
+        <table>
+            <tr><td><p><b>Discription</b></p>
+                There is BST given with root node with key part as an integer only. 
+                You need to find the in-order successor and predecessor of a given key. 
+                If either predecessor or successor is not found, then set it to NULL. 
+                <br><p class = "category">Category: Easy.</p></td>
+                
+            </tr>
+            
+            <tr><td><p><b>Input:</b></p>
+                The first line of input contains an integer T denoting the number of test cases. 
+                Then T test cases follow. Each test case contains n denoting the number of edges of the BST. 
+                The next line contains the edges of the BST. 
+                The last line contains the key. <br></td>
+            </tr>
+
+            <tr>
+                <td><p><b>Output:</b></p>
+                Find the predecessor and successor of the key in BST and sets pre and suc as predecessor and successor, respectively Otherwise, set to NULL.<br></td>
+            </tr>
+
+            <tr><td><p><b>Constraints:</b></p>
+                <!-- Expected time complexity: O(Height of the BST).<br>
+                Expected space complexity: O(Height of the BST).<br> -->
+                1 &lt= T &lt= 100<br>
+                1 &lt= n &lt= 100<br>
+                1 &lt= key &lt= 100<br>
+                1 &lt= Data_of_nodes &lt=10<sup>2</sup><br>
+                
+
+                
+                
+            </tr>
+
+            <tr><td><p><b>Test Cases</b><br>
+                <p>Input: <br></p>
+                2<br>
+                6<br>
+                50 30 L 30 20 L 30 40 R 50 70 R 70 60 L 70 80 R<br>
+                65<br>
+                6<br>
+                50 30 L 30 20 L 30 40 R 50 70 R 70 60 L 70 80 R<br>
+                100<br>
+                
+                
+                <p>Output:<br></p>
+                60 70<br>
+                80 -1<br>
+                </p></td>
+           </tr>
+            
+
+        </table>
+    </p>
+    </div>
+    <!-- This script tag contains the
+		javascript code in the written URL -->
+    <script src="https://www.jdoodle.com/assets/jdoodle-pym.min.js" type="text/javascript"></script>
+
+</body>
+
+</html>

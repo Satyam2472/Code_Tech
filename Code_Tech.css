@@ -1,0 +1,123 @@
+#title {
+	background-color: #75c1ff;
+	color: #fff;
+}
+
+h1 {
+	font-family: "Montserrat";
+	font-size: 3.5rem;
+	line-height: 1.5;
+	font-weight: bolder;
+}
+
+.container-fluid {
+	padding: 3% 15% 7%;
+}
+body {
+	font-family: "Montserrat";
+}
+
+/* Navigation bar */
+.navbar {
+	padding-bottom: 4.5rem;
+}
+
+.nav-item {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+.navbar-brand {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+
+/* Download butons */
+.download-button {
+	margin: 5% 3% 5% 0;
+}
+
+/* title-image */
+.title-image {
+	width: 68%;
+	/* transform: rotate(25deg); */
+	position: absolute;
+	padding-left: 8%;
+}
+
+/* Feature */
+#features {
+	padding: 9% 13%;
+	background-color: #fff;
+	position: relative;
+	z-index: 1;
+}
+.feature-box {
+	text-align: center;
+	padding: 5%;
+}
+
+p {
+	color: #8f8f8f;
+}
+
+.icon-color {
+	color: #75c1ff;
+	margin-bottom: 4%;
+}
+
+.icon-color:hover {
+	color: #2d77ff;
+}
+
+/* Testimonial */
+
+#testimonials {
+	text-align: center;
+	background-color: #69bcff;
+	color: #fff;
+}
+
+.testimonial-image {
+	border-radius: 100px;
+	width: 30%;
+	margin: 20px;
+}
+
+.carousel-item {
+	padding: 8% 15%;
+}
+
+#press {
+	background-color: #69bcff;
+	text-align: center;
+	padding-bottom: 5%;
+}
+
+.press-img {
+	width: 15%;
+	margin: 20px;
+}
+
+/* Pricing */
+
+#pricing{
+	padding: 100px;
+	text-align: center;
+}
+
+.pricing-column{
+	padding: 3% 2%;
+}
+
+.practise{
+	padding-left: 5%;
+}
+
+.foot{
+	padding: 7% 10%;
+	text-align: center;
+	background-color: #69bcff;
+	height: 3rem;
+
+}
